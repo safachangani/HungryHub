@@ -6,7 +6,7 @@ const state={
 // import { MongoClient } from 'mongodb'
 
 // Connection URL
-const url = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017';
+const url = process.env.MONGODB_URI || 'mongodb+srv://csafa8001:Mongo8001c@cluster0.8wxb2ny.mongodb.net/?tls=true';
 const client = new MongoClient(url);
 
 // Database Name
