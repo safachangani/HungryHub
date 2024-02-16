@@ -23,7 +23,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors({
   origin: 'http://localhost:3000',
-  credentials: true,
+  credentials:true,           
+  optionSuccessStatus:200
 }));
 app.use(express.static('uploads'))
 app.use(function(err, req, res, next) {
